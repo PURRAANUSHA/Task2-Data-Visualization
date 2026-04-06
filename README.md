@@ -1,20 +1,26 @@
 # 📊 Task2 - Data Visualization Project
 
 ## 📌 Overview
-This project focuses on data cleaning, analysis, and visualization using Python.
+This project focuses on data cleaning, analysis, and visualization using Python.  
+The goal is to extract meaningful insights from raw data and present them using clear and interactive visualizations.
 
-## 🛠️ Technologies Used
-- Python
+---
+
+## 🎯 Objectives
+- Clean and preprocess raw data
+- Perform exploratory data analysis (EDA)
+- Generate meaningful insights
+- Create visualizations for better understanding
+
+---
+
+## 🛠️ Tech Stack
+- Python 🐍
 - Pandas
-- Matplotlib / Seaborn
+- Matplotlib
+- Seaborn
+- (Optional) Streamlit for web app
 
-## 🚀 How to Run
-git clone https://github.com/PURRAANUSHA/Task2-Data-Visualization.git  
-pip install -r requirements.txt  
-python scripts/visualization.py  
+---
 
-## 📊 Output
-Graphs and insights generated from data.
-
-## 👩‍💻 Author
-Anusha Purra
+## 📁 Project Structure
