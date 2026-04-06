@@ -1,116 +1,94 @@
-# 📊 Task2 - Data Visualization Project
+# 📊 Task 2: Data Visualization
 
-## 📌 Introduction
+## 📌 Overview
 
-In today’s data-driven world, understanding data through visualization is essential.
-This project focuses on analyzing a dataset and transforming raw data into meaningful visual insights using Python.
-
----
-
-## 🎯 Objective
-
-The main objectives of this project are:
-
-* To clean and preprocess raw data
-* To perform Exploratory Data Analysis (EDA)
-* To identify patterns and trends
-* To visualize data using graphs and charts
-* To derive meaningful insights
-
----
-
-## 🛠️ Technologies Used
-
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Streamlit (for deployment)
+This project focuses on data visualization using Python. The objective is to analyze a car sales dataset and generate meaningful insights through visual representations.
 
 ---
 
 ## 📁 Project Structure
 
-Task2_Data_Visualization/
-│── data/                # Dataset files
-│── scripts/             # Python scripts for analysis
-│── outputs/             # Generated visualizations
-│── README.md
-│── requirements.txt
+```
+Task2_Data_Visualization
+│── data/              # Raw dataset
+│── scripts/           # Python scripts
+│── output/            # Generated graphs
+│── insights.md        # Observations from data
+│── README.md          # Project documentation
+```
 
 ---
 
-## ⚙️ Installation & Setup
+## 🛠️ Tools & Libraries Used
 
-### 1️⃣ Clone the Repository
-
-git clone https://github.com/PURRAANUSHA/Task2-Data-Visualization.git
-
-### 2️⃣ Navigate to Project Folder
-
-cd Task2_Data_Visualization
-
-### 3️⃣ Install Dependencies
-
-pip install -r requirements.txt
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
 
 ---
 
-## 🚀 Execution
+## 📊 Visualizations Created
 
-Run the script to generate visualizations:
+1. **Transmission Count Plot**
 
+   * Shows distribution of automatic vs manual cars
+
+2. **Odometer vs Selling Price**
+
+   * Scatter plot showing relationship between mileage and price
+
+3. **Selling Price by Year**
+
+   * Bar chart showing how price varies with manufacturing year
+
+---
+
+## 📈 Key Insights
+
+* Most vehicles are automatic compared to manual transmission
+* Cars with higher mileage tend to have lower selling prices
+* Newer cars generally have higher selling prices
+* Price varies significantly based on multiple factors
+
+---
+
+## ▶️ How to Run
+
+1. Install required libraries:
+
+```
+pip install pandas matplotlib seaborn
+```
+
+2. Run the script:
+
+```
 python scripts/visualization.py
+```
 
 ---
 
-## 📊 Features
+## 📂 Output
 
-* Data cleaning and preprocessing
-* Exploratory Data Analysis (EDA)
-* Multiple data visualizations (bar charts, line graphs, etc.)
-* Insight generation from data
+All generated graphs are stored in the `output/` folder:
 
----
-
-## 📈 Results & Visualizations
-
-The project generates graphs that help in understanding:
-
-* Trends in the dataset
-* Comparisons between variables
-* Patterns and distributions
-
-(Add your graph images here for better presentation)
+* transmission.png
+* odometer_vs_price.png
+* price_by_year.png
 
 ---
 
-## 💡 Key Insights
+## 🎯 Conclusion
 
-* Identified important trends in the dataset
-* Observed variations across different categories
-* Derived meaningful conclusions using visual analysis
+This project demonstrates how data visualization helps in understanding trends and patterns in real-world datasets. It improves analytical thinking and data interpretation skills.
 
 ---
 
-## 🔗 Live Demo
+## 🔗 Author
 
-https://dataflux-ai-epaxxdwm7bg52jopjjceyy.streamlit.app/
+**Anusha**
 
----
-
-## 🧑‍💻 Author
-
-**Anusha Purra**
-GitHub: https://github.com/PURRAANUSHA
-LinkedIn: (Add your LinkedIn profile link)
-
----
-
-## 📌 Conclusion
-
-This project demonstrates the importance of data visualization in extracting insights from raw data.
-By using Python libraries, we successfully analyzed and visualized the dataset, making it easier to understand patterns and support data-driven decisions.
 
 ---
 
