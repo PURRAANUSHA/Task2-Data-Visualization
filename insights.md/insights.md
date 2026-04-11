@@ -1,17 +1,7 @@
-🚀 Completed Task 2 – Data Visualization
+# Insights from Car Prices Dashboard
 
-I am happy to share that I have completed Task 2 of my internship at ApexPlanet.
-
-In this task, I worked on a car sales dataset and created visualizations using Python, Matplotlib, and Seaborn.
-
-📊 Key Highlights:
-🔹 Created multiple visualizations
-🔹 Analyzed trends in selling price and mileage
-🔹 Gained insights from real-world data
-
-🔗 GitHub Repository:
-(your GitHub link here)
-
-This task helped me improve my data visualization and analysis skills.
-
-#DataScience #Python #Visualization #Internship #ApexPlanet
+* Selling prices vary significantly across different car brands, indicating differences in brand value and demand.
+* Certain states show higher average selling prices, suggesting regional market variations.
+* Automatic transmission cars appear more frequently, showing higher preference in the dataset.
+* Car prices fluctuate across different years, indicating depreciation and market trends over time.
+* Some brands consistently maintain higher resale value compared to others.

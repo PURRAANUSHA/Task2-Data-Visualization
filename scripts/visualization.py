@@ -29,5 +29,21 @@ sns.barplot(x='year', y='sellingprice', data=df)
 plt.xticks(rotation=90)
 plt.title("Selling Price by Year")
 plt.savefig("output/price_by_year.png")
-
 print("Visualization completed ✅")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
