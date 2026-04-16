@@ -5,3 +5,7 @@
 * Automatic transmission cars appear more frequently, showing higher preference in the dataset.
 * Car prices fluctuate across different years, indicating depreciation and market trends over time.
 * Some brands consistently maintain higher resale value compared to others.
+* Car prices vary by brand
+* Automatic cars are more common
+* Some states have higher prices
+* Prices change over years
