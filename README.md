@@ -101,11 +101,11 @@ Task2_Data_Visualization/
 
 ### 🔹 Top 5 Expensive Cars
 
-![Query1](output/query1_top_5_expensive_cars.png)
+![Query1](output/query1_top_expensive.png)
 
 ### 🔹 Average Price by Brand
 
-![Query2](output/query2_average_price_by_brand.png)
+![Query2](output/query2_average_price.png)
 
 ### 🔹 Most Common Transmission
 
