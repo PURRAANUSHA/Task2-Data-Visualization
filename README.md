@@ -77,7 +77,7 @@ Task2_Data_Visualization/
 
 ## 📈 Dashboard Preview
 
-![Dashboard](outputs/dashboard.png)
+![Dashboard](output/dashboard.png)
 
 ---
 
@@ -85,15 +85,15 @@ Task2_Data_Visualization/
 
 ### 🔹 Odometer vs Selling Price
 
-![Odometer vs Price](outputs/odometer_vs_price.png)
+![Odometer vs Price](output/odometer_vs_price.png)
 
 ### 🔹 Price Trend by Year
 
-![Price by Year](outputs/price_by_year.png)
+![Price by Year](output/price_by_year.png)
 
 ### 🔹 Transmission Distribution
 
-![Transmission](outputs/transmission_distribution.png)
+![Transmission](output/transmission_distribution.png)
 
 ---
 
@@ -101,31 +101,31 @@ Task2_Data_Visualization/
 
 ### 🔹 Top 5 Expensive Cars
 
-![Query1](outputs/query1_top_5_expensive_cars.png)
+![Query1](output/query1_top_5_expensive_cars.png)
 
 ### 🔹 Average Price by Brand
 
-![Query2](outputs/query2_average_price_by_brand.png)
+![Query2](output/query2_average_price_by_brand.png)
 
 ### 🔹 Most Common Transmission
 
-![Query3](outputs/query3_most_common_transmission.png)
+![Query3](output/query3_most_common_transmission.png)
 
 ### 🔹 Price Trend by Year
 
-![Query4](outputs/query4_price_trend_by_year.png)
+![Query4](output/query4_price_trend_by_year.png)
 
 ### 🔹 Average Price by Body Type
 
-![Query5](outputs/query5_average_price_by_body_type.png)
+![Query5](output/query5_average_price_by_body_type.png)
 
 ### 🔹 Car Count by Brand
 
-![Query6](outputs/query6_car_count_by_brand.png)
+![Query6](output/query6_car_count_by_brand.png)
 
 ### 🔹 Cheapest Cars
 
-![Query7](outputs/query7_top_5_cheapest_cars.png)
+![Query7](output/query7_top_5_cheapest_cars.png)
 
 ---
 
