@@ -93,7 +93,7 @@ Task2_Data_Visualization/
 
 ### 🔹 Transmission Distribution
 
-![Transmission](output/transmission_distribution.png)
+![Transmission](output/transmission.png)
 
 ---
 
