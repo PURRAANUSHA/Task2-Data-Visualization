@@ -1,9 +1,19 @@
-# 🚗 Car Prices Data Visualization Dashboard
+# 🚗 Car Price Data Analysis & Visualization (Task 2)
 
 ## 📌 Project Overview
 
 This project is part of the **ApexPlanet Data Analytics Internship – Task 2**.
-The objective is to transform raw car price data into meaningful insights using an interactive dashboard built in Power BI.
+The objective is to analyze car price data and generate meaningful insights using **SQL, Python visualizations, and Power BI dashboards**.
+
+---
+
+## 🎯 Objectives
+
+* Analyze pricing trends across different car brands
+* Understand the impact of transmission type and year on prices
+* Explore relationships between variables like odometer and price
+* Perform SQL-based analysis
+* Build an interactive dashboard for visualization
 
 ---
 
@@ -11,55 +21,28 @@ The objective is to transform raw car price data into meaningful insights using 
 
 * **Source:** Kaggle
 * **Dataset Name:** Car Prices Dataset
-* **Description:**
-  The dataset contains information about car attributes such as brand, selling price, transmission type, state, and manufacturing year. It is used to analyze pricing patterns and market trends.
 
----
+### Description:
 
-## 🎯 Objective
+The dataset includes:
 
-To perform data visualization and exploratory analysis by:
-
-* Understanding pricing trends across different car brands
-* Analyzing regional price variations
-* Identifying patterns based on transmission type and year
-* Building an interactive dashboard for better decision-making
-
----
-
-## 📈 Dashboard Features
-
-The Power BI dashboard includes the following visualizations:
-
-* 🔹 Selling Price by Car Brand
-* 🔹 Selling Price Distribution by State
-* 🔹 Count of Cars by Transmission Type
-* 🔹 Average Selling Price by Transmission
-* 🔹 Selling Price Trends by Year
+* Brand (make)
+* Model
+* Selling Price
+* Transmission
+* Year
+* Odometer
+* State
+* Body Type
 
 ---
 
 ## 🛠 Tools & Technologies Used
 
-* **Microsoft Power BI** – Data Visualization
-* **Data Cleaning Techniques** – Handling missing and inconsistent data
-* **Excel / CSV** – Data source
-
----
-
-## 📷 Dashboard Preview
-
-![Dashboard](outputs/dashboard.png)
-
----
-
-## 🔍 Key Insights
-
-* Car selling prices vary significantly across different brands, reflecting brand value and market demand.
-* Certain states exhibit higher average selling prices, indicating regional market differences.
-* Automatic transmission cars are more prevalent in the dataset.
-* Car prices show fluctuations over the years, highlighting depreciation and changing market trends.
-* Some brands maintain consistently higher resale value compared to others.
+* SQLite – SQL Queries
+* Python (Pandas, Matplotlib, Seaborn) – Data Analysis & Graphs
+* Microsoft Power BI – Dashboard
+* Excel / CSV – Data Source
 
 ---
 
@@ -68,35 +51,111 @@ The Power BI dashboard includes the following visualizations:
 ```
 Task2_Data_Visualization/
 │
-├── data/                # Dataset files
-├── outputs/             # Dashboard and images
-│   ├── Task2_CarPrices_Dashboard.pbix
+├── data/                         # Dataset files
+│
+├── scripts/                      # Python scripts (if used)
+│
+├── outputs/                      # All outputs (images & dashboard)
 │   ├── dashboard.png
+│   ├── odometer_vs_price.png
+│   ├── price_by_year.png
+│   ├── transmission_distribution.png
+│   ├── query1_top_5_expensive_cars.png
+│   ├── query2_average_price_by_brand.png
+│   ├── query3_most_common_transmission.png
+│   ├── query4_price_trend_by_year.png
+│   ├── query5_average_price_by_body_type.png
+│   ├── query6_car_count_by_brand.png
+│   ├── query7_top_5_cheapest_cars.png
 │
-├── insights/            # Insights documentation
-│   └── insights.md
-│
-├── scripts/             # (Optional) scripts if used
-│
+├── queries.sql                   # SQL queries
+├── insights.md                   # Key insights
 └── README.md
 ```
 
 ---
 
+## 📈 Dashboard Preview
+
+![Dashboard](outputs/dashboard.png)
+
+---
+
+## 📊 Data Visualization (Python Graphs)
+
+### 🔹 Odometer vs Selling Price
+
+![Odometer vs Price](outputs/odometer_vs_price.png)
+
+### 🔹 Price Trend by Year
+
+![Price by Year](outputs/price_by_year.png)
+
+### 🔹 Transmission Distribution
+
+![Transmission](outputs/transmission_distribution.png)
+
+---
+
+## 📊 SQL Analysis
+
+### 🔹 Top 5 Expensive Cars
+
+![Query1](outputs/query1_top_5_expensive_cars.png)
+
+### 🔹 Average Price by Brand
+
+![Query2](outputs/query2_average_price_by_brand.png)
+
+### 🔹 Most Common Transmission
+
+![Query3](outputs/query3_most_common_transmission.png)
+
+### 🔹 Price Trend by Year
+
+![Query4](outputs/query4_price_trend_by_year.png)
+
+### 🔹 Average Price by Body Type
+
+![Query5](outputs/query5_average_price_by_body_type.png)
+
+### 🔹 Car Count by Brand
+
+![Query6](outputs/query6_car_count_by_brand.png)
+
+### 🔹 Cheapest Cars
+
+![Query7](outputs/query7_top_5_cheapest_cars.png)
+
+---
+
+## 🔍 Key Insights
+
+* Car prices vary significantly across brands, reflecting brand value and demand
+* Premium brands maintain higher average selling prices and resale value
+* Automatic transmission cars are more common in the dataset
+* Car prices change over the years, showing depreciation trends
+* Odometer reading has an inverse relationship with price (higher mileage → lower price)
+* Certain states show higher average prices, indicating regional differences
+* SUVs and Sedans dominate the dataset and often have higher prices
+
+---
+
 ## 📌 Conclusion
 
-This project demonstrates how data visualization can be used to extract meaningful insights from raw data. The interactive dashboard enables users to explore trends and supports better analytical decision-making.
+This project demonstrates how **SQL, Python visualizations, and dashboards** can be combined to analyze real-world data.
+The insights help understand pricing behavior and market trends in the automobile industry.
 
 ---
 
 ## 🚀 Future Enhancements
 
-* Adding more filters for deeper analysis
-* Incorporating additional datasets for comparison
-* Enhancing dashboard design for improved user experience
+* Add predictive models for price estimation
+* Improve dashboard interactivity
+* Include more datasets for comparison
 
 ---
 
 ## 🙌 Acknowledgment
 
-This project was completed as part of the **ApexPlanet Internship Program** to strengthen skills in data analysis and visualization.
+This project was completed as part of the **ApexPlanet Internship Program** to strengthen skills in data analysis, SQL, and visualization.
